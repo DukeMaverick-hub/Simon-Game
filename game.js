@@ -38,7 +38,7 @@ function handler(event) {
 }
 
 function playSound(name) {
-    var audio = new Audio("./sounds/" + name + ".mp3");
+    var audio = new Audio(name + ".mp3");
     audio.play();
 }
 
